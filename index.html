@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <!--- basic page needs    ================================================== -->
+    <meta charset="utf-8">
+    <title>AutoGamer</title>
+    <meta content="android,ankulua,ios,ipad,autotouch,macro,bot,autoplay,automate,automation,script,cheat,アンドロイド,アイフォン,マクロ,ボット,自動化,ツール,チート,お試し,トライアル,クレカ,スクリプト,ソースコード,ドラクウォーク,ぷにぷに", name="keyword">
+    <meta content="android用の自動操作ツールであるankulua/ios用の自動操作ツールであるautotouchを使ったスクリプトを作成、販売し、ゲームなどのプレイや操作をある程度自動化することにより、時間を有意義に使うことを最終的な目的としています。" name="description">
+    <meta name="author" content="">
+    <!-- mobile specific metas    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&amp;subset=cyrillic,japanese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <!-- CSS    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- script    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <!-- favicons    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133844353-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133844353-6');
+    </script>
+</head>
+<style>
+  /* CSS for LQIP blur added by Yama190220
+   use calss "lazyload blur" instead of "lazyload" */
+.blur {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    transition: filter 600ms, -webkit-filter 600ms;
+}
+.blur.lazyloaded {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+.yy_title {
+    padding: 0.4em 0.5em; /* 文字の上下 左右の余白 */
+    color: #494949; /* 文字色 */
+    /* background: #f4f4f4; */ /* 背景色 */
+    border-left: solid 5px #7db4e6; /* 左線 */
+    border-bottom: solid 3px #d7d7d7; /* 下線 */
+}
+.yy_marker {
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #FFDFEF 0%) repeat scroll 0 0;
+}
+.yy_marker2 {
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #cce5ff 0%) repeat scroll 0 0;
+}
+.yy_marker3 {
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+}
+.yy_date {
+    text-align: left;
+    color: #ff6347;
+}
+.yy_author {
+    text-align: right;
+    color: #5f9ea0;
+}
+.yy_pubdate {
+    text-align: right;
+    color: #006400;
+}
+</style>
+<body id="top">
+    <!-- pageheader    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+        <header class="header">
+            <div class="header__content row">
+	      <h1 style="color: white;">AutoGamer</h1>
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>メニュー</span></a>
+                <nav class="header__nav-wrap">
+                    <h2 class="header__nav-heading h6">ナビゲーション</h2>
+                    <ul class="header__nav">
+                        <li class="current"><a href="index.html" title="">トップページ</a></li>
+                        <li><a href="ankulua_install.html" title="">Ankulua導入</a></li>
+                        <li><a href="dqwalk.html" title="">ドラクエウォーク</a></li>
+                        <li><a href="punipuni.html" title="">妖怪ウォッチぷにぷに</a></li>
+                        <li><a href="rirakkuma.html" title="">リラックマ農園</a></li>
+                    </ul> <!-- end header__nav -->
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+                </nav> <!-- end header__nav-wrap -->
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+    </section> <!-- end s-pageheader -->
+    <!-- s-content    ================================================== -->
+    <section class="s-content s-content--narrow s-content--no-padding-bottom">
+
+        <article class="row format-video">
+
+            <div class="s-content__header col-full">
+                <h1 class="s-content__header-title">トップページ</h1>
+            </div> <!-- end s-content__header -->
+
+            <div class="col-full s-content__main">
+	        <h2 class="yy_title">ankulua/autotouchのスクリプトを作っています</h2>
+		<ul>
+		    <li>Android用の自動化ツールのひとつにankuluaが、iOS用の自動化ツールのひとつにautotouchがあります。このサイトではそれらで動作する、主に<span class="yy_marker">ゲームの操作を自動化</span>する<span class="yy_marker">スクリプト</span>(マクロ)を作成、販売しています。</li>
+		    <li>スクリプトの開発、テスト環境は<br><span class="yy_marker">ankulua CPU:Snapdragon 835、メモリ:6GB、解像度:1080x2160<br>autotouch iPad mini 2</span>です。</li>
+		    <li>スクリプトの価格は500円です。購入した時点での完全な動作を保証します。<span class="yy_marker2">ゲーム側のアップデートによる対応などは原則致しません</span>のでご承知願います。</li>
+		    <li>購入前に<span class="yy_marker2">無料のお試し版</span>にて、動作確認をしていただくことができます。</li>
+		    <li>ankuluaは開発時と解像度が違う機種でも動作する、と謳っていますので、多くの機種でも動作すると考えています。しかし、お試し版で動作しないことが確認できた場合、動作するようスクリプトの改良にご協力をお願いすることがあります。よろしくお願いします。</li>
+		    <li>autotouchでの開発、動作確認は<u>iPhone 6s+</u>及び<u>iPad mini 2</u>でしか行っていません。画面の解像度が同じであるデバイスでは動作はすると思いますが、これらの機種以外のデバイスに対する細かな調整には対応できません。</li>
+		    <li>ソースコードを購入することもできます。ソースコードについては、ご自身で利用される目的での改変を認めます。コードの解説、改造もできる限りサポートしますが、価格は10000円と高価です。</li>
+		    <li>スクリプトを利用して起こるかもしれない損害、例えば<span class="yy_marker2">アカウントBAN</span>や<span class="yy_marker2">端末への損害</span>など、が発生してもいかなる責任も負いません。スクリプトを導入した時点で<span class="yy_marker">ご承諾</span>いただいたものと見なしますのでご注意下さい。</li>
+		    <li>支払いはクレカでのお支払いのみ可能です。Paypal経由でお支払い頂きます。</li>
+		</ul>
+
+                <h2 class="yy_title">注意事項</h2>
+		<ul>
+		    <li>スクリプトの利用で生じた、いかなる損害も<span class="yy_marker">一切保証いたしません。</span></li>
+		    <li>スクリプトのソースコードの著作権は<span class="yy_marker">作者に帰属</span>します。</li>
+		    <li>自己使用の範囲において改変を認めますが、改変前、改変後に関わらず、<span class="yy_marker">再配布、再販売は認めません</span>。</li>
+		</ul>
+
+                <h2 class="yy_title">お問い合わせなど</h2>
+		<p>スクリプトについてご質問、ご要望などありましたら気軽にご連絡下さい。</p>
+		<p>ankulua、autotouchに関するご質問でも構いません。可能な範囲で対応致します。</p>
+		<p>メールアドレスは以下です。</p>
+		<p>ドットを"."に、アットを"@"に置き換えて下さい。48時間以内に返答致します。</p>
+                <h3><a href="#"><span class="yy_author">rktnドットbooアットgmail.com</span></a></h3>
+            </div>
+        </article>
+
+    </section>
+    <footer class="s-footer">
+        <div class="s-footer__main">
+            <div class="row">
+            </div>
+        </div> <!-- end s-footer__main -->
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2018</span>
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
+                    </div>
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+    </footer> <!-- end s-footer -->
+    <!-- preloader    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Java Script    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
